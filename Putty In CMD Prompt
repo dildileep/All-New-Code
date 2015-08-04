@@ -1,0 +1,13 @@
+opening putty from command prompt
+
+1) locate putty.exe in cmd prompt 
+
+eg:
+
+c:\user\dilraj> cd ./Desktop   [enter]
+
+c:\user\dilraj\Desktop> putty.exe -ssh username@1.2.3.4 -pw password   [enter]
+
+username :- username of the machine you wannt to log-in
+@1.2.3.4 : IP address of the target you wanna open
+-pw PAssword of the target system
