@@ -1,0 +1,25 @@
+Do you want to automate things that you repeatedly do on a linux command line?. ‘Autoexpect’ would do that for you!. 
+
+It is nothing but an except script that is generated automatically for you.
+
+In a simple words….
+1.	Enable auto expect (comes along with all Linux packages).
+2.	For one time,  type all your commands manually that you want to automate.
+3.	Disable autoexpect and you are done!!. The autoexpect would automatically generate a script file.
+
+Try it:
+
+$ Autoexpect
+Autoexpect started, file is script.exp
+$ <start typing your commands>
+
+press Ctrl+D on your keyboard to stop Autoexpect
+
+
+For further information refer to http://www.admin-magazine.com/Articles/Automating-with-Expect-Scripts 
+Note: A small tuning/cleanup is required on a generated file, because for example if you had typed ‘ls’ even that gets recorded/automated in the script. 
+
+Should you have any questions, please feel free to reach me.
+
+Regards,
+D!L
