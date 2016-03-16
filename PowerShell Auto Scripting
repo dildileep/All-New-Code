@@ -1,0 +1,19 @@
+Hi 
+
+FYI : How To Schedule Routine Tasks in PowerShell ?
+
+Automating PowerShell command line.  With help of ‘Get-History’ Command.
+
+This command generates history of commands used.
+
+Steps….
+
+1)	Start the session [open the PowerShell command line]  
+2)	Start doing your work [i.e. executing the commands] 
+3)	Once done get the history of the commands                   (Get-History).CommandLine | Export-Csv c:\dil.psm1
+4)	Go to the path specified and Script is ready.
+
+
+
+Regards
+-D!L
